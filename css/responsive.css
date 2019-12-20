@@ -17,7 +17,9 @@ License URI: http://www.themevault.net/license/
         margin-left: auto;
         margin-right: auto;     
     }
+  
 }
+
 @media (max-width: 992px){
     .tv-feature-content, .tv-site-logo, .tv-address-content, .tv-cta-img, .tv-cta-content{
         text-align: center;
@@ -79,6 +81,9 @@ License URI: http://www.themevault.net/license/
     .tv-innerpage-title{
         font-size: 30px;
     }
+
+
+  
 }
 @media (max-width: 767px){
     p{
@@ -130,8 +135,11 @@ License URI: http://www.themevault.net/license/
         right: auto;
         text-align: left;
     }
+   
+
 }
-@media (max-width: 500px){
+
+@media (max-width: 501px){
     .width-100, .tv-member-image img{
         width:100%;
     }
@@ -153,6 +161,7 @@ License URI: http://www.themevault.net/license/
     .media-body, .tv-popular-posts-content{
         text-align: left;
     }
+  
 }
 @media (max-width: 400px){
     .width-50perc{

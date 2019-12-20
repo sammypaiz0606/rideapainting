@@ -34,6 +34,21 @@ ul li{list-style-type: none}
 .form-control:focus{
 
 }
+
+.tv-top-header .tv-feature-content .tile1 {
+    width:100%;
+    height:150px;
+}
+
+.houseLogo {
+    width:100%;
+    height:100px;
+    position: relative;
+    top:-110px;
+}
+.tv-padding {
+    margin-top:20px;
+}
 .tv-subscribe-form textarea:focus, .tv-subscribe-form textArea:focus, .tv-subscribe-form input[type="text"]:focus, .tv-subscribe-form input[type="password"]:focus, .tv-subscribe-form input[type="datetime"]:focus, .tv-subscribe-form input[type="datetime-local"]:focus, .tv-subscribe-form input[type="date"]:focus, .tv-subscribe-form input[type="month"]:focus, .tv-subscribe-form input[type="time"]:focus, .tv-subscribe-form input[type="week"]:focus, .tv-subscribe-form input[type="number"]:focus, .tv-subscribe-form input[type="email"]:focus, .tv-subscribe-form input[type="url"]:focus, .tv-subscribe-form input[type="search"]:focus, .tv-subscribe-form input[type="tel"]:focus, .tv-subscribe-form input[type="color"]:focus {   
     border-color: none;
     box-shadow: none !important;
@@ -78,9 +93,9 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
 }
 /*==================================================common======================================================*/
-.tv-paddingTB-40{
-    padding-bottom: 40px;
-    padding-top: 40px;
+.tv-main-nav {
+    position: relative;
+    top:-100px;
 }
 .tv-feature-content ul li, .tv-feature-content ul, .tv-searchbar{
     display: inline-block;
@@ -95,14 +110,21 @@ h1,h2,h3,h4,h5,h6{
 .tv-service-text > p, .tv-member-name p, .tv-blog-desc p, .media-body p{
     color: #444;
 }
+.navbar-default {
+    border-top:5px solid red !important;
+
+    
+}
 .navbar-default .navbar-nav > li > a {
     color: rgba(255, 255, 255, 0.7);
 }
 .tv-projects-filter a::before, .navbar-nav > li > a::before, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .tv-slider .owl-nav i:hover, .tv-innerpage-title::before, .tv-cta, .tv-popular-tags-content a, .tv-highlight-text > span::before, .tv-project-name::after, .back-to-top, .tv-service-text h4::before, .tv-single-blog h3::before, .tv-member-content .tv-member-info, .tv-post-date, .tv-contact-icon::after, .tv-footer-content{
-    background-color: #f1d846;
+    background-color: red;
+    color:yellow;
 }
 .navbar-default, .tv-step-content:hover .tv-stepshover-info, .tv-member-sociallinks i, .tv-address-content, .tv-website-socialicon a:hover, .tv-footer-copyright, .tv-cta-divider::before{
     background-color: #000;
+
 }
 .tv-search-form::before, .input.tv-search-field, .btn2 .tv-mask, .tv-step-content .tv-stepshover-info, .tv-member-sociallinks a:hover i, .tv-website-socialicon a, .tv-subscribe-form form .btn{
     background: #fff;
@@ -117,7 +139,7 @@ h1,h2,h3,h4,h5,h6{
     color: #fff;
 }
 .tv-highlight-text > span, #accordion .panel-heading:hover h4, .tv-projects-filter a:hover, .tv-counter-value > span, .tv-copyright a, .tv-contact-info a:hover, .breadcrumb > li + li::before, .breadcrumb > .active, .tv-blog-sharelinks a:hover, .media-heading small i, .tv-author-sociallinks a:hover, .tv-porject-cat{
-    color: #f1d846
+    color: red;
 }
 .tv-section{
     padding: 100px 0 0;
@@ -131,6 +153,35 @@ h1,h2,h3,h4,h5,h6{
 .tv-section-para, .tv-about-img img{
     margin-left: auto;
     margin-right: auto;
+}
+
+
+
+/*------logo site----------sp---*/
+.tv-site-logo {
+    margin:0 auto;
+    position: absolute;
+    z-index: 1;
+    top:0;
+    color:red;
+    margin-left:10px;
+    margin-top:10px;
+    width:300px;
+}
+.tv-site-logo h1 {
+    font-size:3em;
+
+}
+.tv-site-logo h3 {
+    margin-top:-15px;
+
+}
+.tv-site-logo h1,
+.tv-site-logo h3 {
+    text-shadow: 2px 5px 4px #000000;
+    margin-left:10px;
+
+
 }
 .tv-no-paddingLR{
     padding-left: 0px;
@@ -371,7 +422,7 @@ input.tv-search-field{
     width: 45px;
 }
 .btn, .btn2 {
-    background: #f1d846;
+    background: red;
     border: medium none;
     border-radius: 0px;
     color: #000;
@@ -387,7 +438,7 @@ input.tv-search-field{
     color:#fff;
 }
 .btn:hover, .btn:focus, .btn:active{
-    background: #ffc527 !important;
+    background: red !important;
     border: medium none !important;
     color: #fff !important;
     outline: medium none !important;
