@@ -81,7 +81,13 @@ License URI: http://www.themevault.net/license/
     .tv-innerpage-title{
         font-size: 30px;
     }
+    .tv-site-logo h1 {
+        margin-left:-50px;
+    }
+    .tv-site-logo h3 {
+        margin-left:-140px;
 
+    }
 
   
 }

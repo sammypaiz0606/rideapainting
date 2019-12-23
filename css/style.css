@@ -640,22 +640,27 @@ input.tv-search-field{
 
 /*=======================================================service============================================================*/
 .tv-service-img {
-    height: 48px;
+    height: 150px;
     overflow: hidden;
-    width: 48px;
+    width: 200px;
     margin-bottom: 30px;
 }
 .tv-service-img img:first-of-type{
-    margin-left: -48px;
+    margin-left: -200px;
     transition: all 0.3s ease 0s;
 }
 .tv-service-img img{
     display: block;
+    width:100%;
+    height:100%;
+    
 }
+
 .tv-service-img img:last-of-type{
-    margin-top: -48px;
+    margin-top: -150px;
     position: relative;
     transition: all 0.2s ease 0s;
+    opacity:0.5;
 }
 .tv-service-text h4::before, .tv-single-blog h3::before {
     bottom: 0;
@@ -669,10 +674,11 @@ input.tv-search-field{
     position: relative;
 }
 .tv-service-content:hover .tv-service-img img:first-of-type{
-    margin-left: 0;
+    margin-left:0;
+    width:100%;
 }
 .tv-service-content:hover .tv-service-img img:last-of-type{
-    margin-left: 48px;
+    margin-left: 200px;
 }
 .tv-service-text > p{
     margin: 25px 0;
