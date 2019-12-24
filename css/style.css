@@ -1,10 +1,17 @@
 
 
-
+.dream1 {
+    width:400px;
+    height:300px;
+}
 .layout {
     text-align:center;
-    margin:20px;
+    margin:0 auto;
     width:100%;
+}
+.box {
+    padding-top:20px;
+    margin:0 auto;
 }
 .changeimg {
     width:70%;
@@ -14,7 +21,6 @@
 }
 .ul {
     margin:0 20px;
-    width:600px;
 }
 .ul li {
     max-width:300px;
@@ -23,13 +29,16 @@
 
 }
 .ul li img {
-    width:200px;
+    max-width:200px;
     height:150px;
     margin:20px;
 }
 .tv-blog-content {
     border:2px solid #ddd;
+}
+.tv-blog-content:hover {
     box-shadow:2px 2px 2px #ddd;
+    cursor:pointer;
 }
 .tv-blog-image img {
     width:300px;
