@@ -1,3 +1,45 @@
+
+
+
+.layout {
+    text-align:center;
+    margin:20px;
+    width:100%;
+}
+.changeimg {
+    width:70%;
+    height:400px;
+    margin-top:-100px;
+
+}
+.ul {
+    margin:0 20px;
+    width:600px;
+}
+.ul li {
+    max-width:300px;
+    display:inline-block;
+    margin:20px;
+
+}
+.ul li img {
+    width:200px;
+    height:150px;
+    margin:20px;
+}
+.tv-blog-content {
+    border:2px solid #ddd;
+    box-shadow:2px 2px 2px #ddd;
+}
+.tv-blog-image img {
+    width:300px;
+    height:200px;
+    margin:15px;
+}
+.images-3 {
+    padding:0;
+    margin-top:-50px;
+}
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -118,9 +160,13 @@ h1,h2,h3,h4,h5,h6{
 .navbar-default .navbar-nav > li > a {
     color: rgba(255, 255, 255, 0.7);
 }
-.tv-projects-filter a::before, .navbar-nav > li > a::before, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .tv-slider .owl-nav i:hover, .tv-innerpage-title::before, .tv-cta, .tv-popular-tags-content a, .tv-highlight-text > span::before, .tv-project-name::after, .back-to-top, .tv-service-text h4::before, .tv-single-blog h3::before, .tv-member-content .tv-member-info, .tv-post-date, .tv-contact-icon::after, .tv-footer-content{
+.tv-projects-filter a::before, .navbar-nav > li > a::before, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .tv-slider .owl-nav i:hover, .tv-innerpage-title::before, .tv-cta, .tv-popular-tags-content a, .tv-highlight-text > span::before, .tv-project-name::after, .back-to-top, .tv-service-text h4::before, .tv-single-blog h3::before, .tv-member-content .tv-member-info, .tv-post-date, .tv-contact-icon::after{
     background-color: red;
     color:yellow;
+}
+.footer-background {
+    background:#193258;
+    height:150px;
 }
 .navbar-default, .tv-step-content:hover .tv-stepshover-info, .tv-member-sociallinks i, .tv-address-content, .tv-website-socialicon a:hover, .tv-footer-copyright, .tv-cta-divider::before{
     background-color: #000;
@@ -481,7 +527,7 @@ input.tv-search-field{
     text-transform: capitalize;
 }
 .tv-section-heading h2::before, .tv-innerpage-title::before {
-    border: 2px solid #ffc527;
+    border: 2px solid red;
     content: "";
     display: block;
     height: 60px;
@@ -954,7 +1000,7 @@ input.tv-search-field{
 }
 .tv-address-content{
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.3);
-    padding: 30px 0;
+    padding: 10px 0;
     width: 100%;
 }
 .tv-footer-social{

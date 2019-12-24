@@ -108,13 +108,13 @@ License URI: http://www.themevault.net/license/
         width: 100%;
     }
     .navbar-default .navbar-toggle{
-        border-color: #ffc527;
+        border-color: red;
     }
     .navbar-default .navbar-toggle .icon-bar{
         background-color: #fff;
     }
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
-        background-color: #ffc527;
+        background-color: red;
     }
     .tv-slider-content {
         width: 60%;
