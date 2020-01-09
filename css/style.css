@@ -14,7 +14,7 @@
     margin:0 auto;
 }
 .changeimg {
-    width:90%;
+    width:80%;
     height:500px;
     margin-top:-100px;
 
@@ -208,6 +208,8 @@ h1,h2,h3,h4,h5,h6{
 .tv-section-para, .tv-about-img img{
     margin-left: auto;
     margin-right: auto;
+    width:500px;
+    height:350px;
 }
 
 
@@ -551,6 +553,7 @@ input.tv-search-field{
     margin-left: auto;
     margin-right: auto;
     width: 65%;
+    height:20px;
 }
 #accordion a {
     display: block;
@@ -661,6 +664,7 @@ input.tv-search-field{
     height: auto;
     max-width: 100%;
     width: 100%;
+    height:300px;
 }
 .tv-step-content:hover .tv-stepsupper-info .tv-info-inner, .tv-step-content .tv-stepshover-info .tv-info-inner {
     opacity: 0;
