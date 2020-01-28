@@ -180,6 +180,10 @@ License URI: http://www.themevault.net/license/
     .changeimg {
         width:20%;
     }
+    .tv-section-para, .tv-about-img img {
+        width:350px;
+        height:300px;
+    }
   
 }
 @media (max-width: 400px){
